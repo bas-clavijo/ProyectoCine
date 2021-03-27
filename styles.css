@@ -3,3 +3,9 @@ body {
     font-family: 'Dela Gothic One', cursive;
     font-family: 'Roboto Slab', serif;
 }
+
+#Titulo {
+    font: bold 30px Tahoma;
+    width: 100%;
+    text-align: center;
+}
