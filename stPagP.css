@@ -1,0 +1,20 @@
+body {
+    background-color: #158bb9;
+    font-family: 'Roboto Slab', serif;
+}
+
+#Titulo {
+    font: bold 30px Tahoma;
+    width: 100%;
+    text-align: center;
+}
+
+#Inicio {
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+#Fin {
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
