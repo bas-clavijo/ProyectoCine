@@ -9,10 +9,6 @@ body {
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('fondo.jpg');
-}
-
 .form-register {
     width: 400px;
     background: #24303c;
