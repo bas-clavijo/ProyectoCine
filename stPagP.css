@@ -22,14 +22,6 @@ body {
     margin-left: 90%;
 }
 
-nav {
-    background-color: darkgray;
-    float: right;
-    padding-bottom: 35%;
-    border-style: solid;
-    margin-right: 1%;
-}
-
 #peliculas {
     background-color: white;
     float: left;
@@ -42,7 +34,7 @@ nav {
 
 #series {
     background-color: white;
-    float: right;
+    float: left;
     padding-right: 15%;
     padding-bottom: 20%;
     padding-left: 15%;
