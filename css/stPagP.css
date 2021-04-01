@@ -1,0 +1,61 @@
+body {
+    background-color: #158bb9;
+    font-family: 'Roboto Slab', serif;
+}
+
+#Titulo {
+    font: bold 30px Tahoma;
+    width: 100%;
+    text-align: center;
+}
+
+#Fin {
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+#Login {
+    margin-left: 90%;
+}
+
+#Registro {
+    margin-left: 90%;
+}
+
+#peliculas {
+    background-color: white;
+    float: left;
+    padding-right: 15%;
+    padding-bottom: 20%;
+    padding-left: 15%;
+    border-style: solid;
+    margin-left: 5%;
+}
+
+#series {
+    background-color: white;
+    float: left;
+    padding-right: 15%;
+    padding-bottom: 20%;
+    padding-left: 15%;
+    border-style: solid;
+    margin-left: 5%;
+}
+
+#estrenos {
+    background-color: white;
+    float: left;
+    padding-right: 70%;
+    padding-bottom: 20%;
+    border-style: solid;
+    margin-top: 1%;
+}
+
+#proximosEstrenos {
+    background-color: white;
+    float: left;
+    padding-right: 70%;
+    padding-bottom: 20%;
+    border-style: solid;
+    margin-top: 1%;
+}
