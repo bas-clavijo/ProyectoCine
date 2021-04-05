@@ -1,5 +1,5 @@
 :root {
-    --rojo: #ffffff;
+    --blanco: #ffffff;
     --fondo: #141414;
 }
 
@@ -32,7 +32,7 @@ header .contenedor {
 header .logotipo {
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
-    color: var(--rojo);
+    color: var(--blanco);
     font-size: 40px;
 }
 
