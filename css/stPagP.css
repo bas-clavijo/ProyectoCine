@@ -129,6 +129,8 @@ header nav a.activo {
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
+    color: #FFF;
+    margin-right: 20px;
 }
 
 
