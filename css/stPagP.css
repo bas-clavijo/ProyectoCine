@@ -57,7 +57,6 @@ header nav a.activo {
     background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/godzilla.jpeg);
     background-position: center center;
     background-size: cover;
-    margin-bottom: 3.12em;
     display: flex;
     align-items: end;
 }
@@ -118,8 +117,8 @@ header nav a.activo {
 /*---carousel----*/
 
 .Carousel {
-    width: 100%;
     margin: 0px 60px;
+    width: 90%;
 }
 
 .Carousel h2 {
@@ -164,6 +163,7 @@ header nav a.activo {
     box-sizing: border-box;
     display: flex;
     height: 100%;
+    margin: auto;
 }
 
 .slick a img {
