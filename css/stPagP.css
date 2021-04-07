@@ -1,61 +1,240 @@
+:root {
+    --blanco: #ffffff;
+    --fondo: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #158bb9;
-    font-family: 'Roboto Slab', serif;
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
 }
 
-#Titulo {
-    font: bold 30px Tahoma;
-    width: 100%;
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotipo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--blanco);
+    font-size: 40px;
+}
+
+header nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: #FFF;
+}
+
+
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/godzilla.jpeg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.pelicula-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+
+@media screen and (max-width: 800px) {
+    header .logotipo {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pelicula-principal {
+        font-size: 14px;
+    }
+    .pelicula-principal .descripcion {
+        max-width: 100%;
+    }
+    .peliculas-recomendadas .contenedor-carousel {
+        overflow: visible;
+    }
+    .peliculas-recomendadas .contenedor-carousel .carousel {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .peliculas-recomendadas .indicadores,
+    .peliculas-recomendadas .flecha-izquierda,
+    .peliculas-recomendadas .flecha-derecha {
+        display: none;
+    }
+}
+
+
+/*---carousel----*/
+
+.Carousel {
+    margin: 0px 60px;
+    width: 90%;
+}
+
+.Carousel h2 {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
     text-align: center;
+    color: #FFF;
+    margin-right: 20px;
 }
 
-#Fin {
-    color: #000;
-    font-family: 'Roboto Slab', serif;
+
+/* images */
+
+.slick-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
 }
 
-#Login {
-    margin-left: 90%;
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
 }
 
-#Registro {
-    margin-left: 90%;
-}
-
-#peliculas {
-    background-color: white;
+.slick {
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
     float: left;
-    padding-right: 15%;
-    padding-bottom: 20%;
-    padding-left: 15%;
-    border-style: solid;
-    margin-left: 5%;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    margin: auto;
 }
 
-#series {
-    background-color: white;
-    float: left;
-    padding-right: 15%;
-    padding-bottom: 20%;
-    padding-left: 15%;
-    border-style: solid;
-    margin-left: 5%;
+.slick a img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    transition: .3s ease-in-out;
+    margin: auto;
 }
 
-#estrenos {
-    background-color: white;
-    float: left;
-    padding-right: 70%;
-    padding-bottom: 20%;
-    border-style: solid;
-    margin-top: 1%;
+.slick a img:hover {
+    opacity: .85;
 }
 
-#proximosEstrenos {
-    background-color: white;
-    float: left;
-    padding-right: 70%;
-    padding-bottom: 20%;
-    border-style: solid;
-    margin-top: 1%;
+
+/* buttons */
+
+.slick-arrow {
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
+    border: 0;
+    cursor: pointer;
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: rgba(0, 0, 0, .7);
+}
+
+.slick-prev {
+    left: 0%;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+
+.slick-next {
+    right: 0px;
+    position: absolute;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
 }
