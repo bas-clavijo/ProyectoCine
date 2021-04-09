@@ -51,3 +51,36 @@ img {
     margin-left: 1.5px;
     margin-right: 1.5px;
 }
+
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+
+@media screen and (max-width: 800px) {
+    header .logotipo {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pelicula-principal {
+        font-size: 14px;
+    }
+    .pelicula-principal .descripcion {
+        max-width: 100%;
+    }
+    .peliculas-recomendadas .contenedor-carousel {
+        overflow: visible;
+    }
+    .peliculas-recomendadas .contenedor-carousel .carousel {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .peliculas-recomendadas .indicadores,
+    .peliculas-recomendadas .flecha-izquierda,
+    .peliculas-recomendadas .flecha-derecha {
+        display: none;
+    }
+}
