@@ -1,4 +1,5 @@
 body {
+    padding: 1%;
     background-color: #158bb9;
     font-family: 'Roboto Slab', serif;
 }
@@ -25,7 +26,6 @@ body {
     font-size: 22px;
     margin-bottom: 20px;
 }
-
 .controls {
     width: 100%;
     background: #24303c;
@@ -37,24 +37,20 @@ body {
     font-size: 18px;
     color: white;
 }
-
 .form-register p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
 }
-
 .form-register a {
     color: white;
     text-decoration: none;
 }
-
 .form-register a:hover {
     color: white;
     text-decoration: underline;
 }
-
 .form-register .botons {
     width: 100%;
     background: #1f53c5;
@@ -68,5 +64,5 @@ body {
 #home{
     font-size: 20px;
     color: white;
-    margin-left: 1%;
+    text-decoration: none;
 }
