@@ -49,13 +49,19 @@ header nav a.activo {
 
 img {
     margin-left: 5%;
-    margin-bottom: 2%; 
+    margin-bottom: 2%;
+    border-radius: 10px;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s  ;
 }
 
 #texto {
     color: #ffffff;
 }
 
+img:hover{
+    -webkit-transform:scale(1.1);
+    
+}
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 
 @media screen and (max-width: 800px) {
@@ -67,7 +73,5 @@ img {
         flex-direction: column;
         text-align: center;
     }
-    .container img{
-        
-    }
+
 }
