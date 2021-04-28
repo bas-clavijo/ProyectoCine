@@ -8,34 +8,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 body {
     background: var(--fondo);
     font-family: 'Open Sans', sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 .contenedor {
     width: 90%;
     margin: auto;
 }
+<<<<<<< HEAD
 
 header {
     padding: 30px 0;
 }
 
+=======
+header {
+    padding: 30px 0;
+}
+>>>>>>> origin/francisco
 header .contenedor {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 header .logotipo {
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     color: var(--blanco);
     font-size: 40px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 header nav a {
     color: #AAA;
     text-decoration: none;
@@ -237,4 +255,46 @@ header nav a.activo {
     cursor: pointer;
     z-index: 500;
     transition: .2s ease all;
+<<<<<<< HEAD
+}
+
+footer {
+    background-color: #3a3937;
+    margin-top: 55px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    bottom: 0;
+    font-size: 19px;
+}
+
+footer>nav>a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+/* tamaño icono  */
+
+footer>nav>a>img {
+    width: 55px;
+    height: 55px;
+    text-align: right;
+}
+
+footer>nav>a {
+    width: 55px;
+    height: auto;
+}
+
+footer>nav {
+    text-align: left;
+}
+
+footer>nav>h4 {
+    text-align: center;
+=======
+>>>>>>> origin/francisco
 }

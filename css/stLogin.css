@@ -1,4 +1,8 @@
 body {
+<<<<<<< HEAD
+=======
+    padding: 1%;
+>>>>>>> origin/francisco
     background-color: #158bb9;
     font-family: 'Roboto Slab', serif;
 }
@@ -19,7 +23,10 @@ body {
     padding: 20px 30px;
     border-top: 4px solid #017bab;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 .form-login h2 {
     margin: 0;
     text-align: center;
@@ -28,7 +35,10 @@ body {
     border-bottom: 1px solid;
     font-size: 20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 .controls {
     width: 100%;
     border: 1px solid #017bab;
@@ -38,28 +48,51 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+<<<<<<< HEAD
 
 .buttons {
     width: 100%;
+=======
+.buttons {
+    width: 100%;
+
+>>>>>>> origin/francisco
     height: 40px;
     background: #017bab;
     border: none;
     color: white;
     margin-bottom: 16px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 .form-login p {
     height: 40px;
     text-align: center;
     border-bottom: 1px solid;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/francisco
 .form-login a {
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
+<<<<<<< HEAD
 
 .form-login a:hover {
     text-decoration: underline;
+=======
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+#home{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+>>>>>>> origin/francisco
 }
