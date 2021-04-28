@@ -50,6 +50,7 @@ header nav a.activo {
 img {
     margin-left: 1.5px;
     margin-right: 1.5px;
+    text-align: center;
 }
 
 #texto {
@@ -87,4 +88,21 @@ img {
     .peliculas-recomendadas .flecha-derecha {
         display: none;
     }
+}
+
+.contenedor-foto {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-foto>div>img {
+    margin-right: 30px;
+}
+
+.contenedor-texto {
+    text-align: center;
 }
