@@ -5,5 +5,3 @@
 9/4: está ok, faltan sólo detalles en el menú de algunos vínculos que aún no tienen el formato 
 12/04: falta mockup
 
-
- 
