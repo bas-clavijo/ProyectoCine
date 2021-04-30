@@ -244,7 +244,7 @@ header nav a.activo {
 }
 
 footer {
-    background-color: #3a3937;
+    background-color: #202020;
     margin-top: 55px;
     width: 100%;
     height: 200px;
@@ -253,7 +253,7 @@ footer {
     font-size: 19px;
 }
 
-footer>nav>a {
+footer>nav>h4>a {
     text-decoration: none;
     color: #ffffff;
     margin-left: 5px;
