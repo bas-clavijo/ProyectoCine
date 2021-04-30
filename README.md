@@ -6,3 +6,7 @@
 12/04: falta mockup
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
