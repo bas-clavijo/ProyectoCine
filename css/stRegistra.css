@@ -1,5 +1,8 @@
 body {
+<<<<<<< HEAD
+=======
     padding: 1%;
+>>>>>>> origin/francisco
     background-color: #158bb9;
     font-family: 'Roboto Slab', serif;
 }
@@ -26,6 +29,10 @@ body {
     font-size: 22px;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/francisco
 .controls {
     width: 100%;
     background: #24303c;
@@ -37,20 +44,36 @@ body {
     font-size: 18px;
     color: white;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/francisco
 .form-register p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/francisco
 .form-register a {
     color: white;
     text-decoration: none;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/francisco
 .form-register a:hover {
     color: white;
     text-decoration: underline;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/francisco
 .form-register .botons {
     width: 100%;
     background: #1f53c5;
@@ -59,10 +82,13 @@ body {
     color: white;
     margin: 16px 0;
     font-size: 16px;
+<<<<<<< HEAD
+=======
 }
 
 #home{
     font-size: 20px;
     color: white;
     text-decoration: none;
+>>>>>>> origin/francisco
 }
