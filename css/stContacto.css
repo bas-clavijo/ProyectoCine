@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color: #141414;
+    background-image: url(../img/fondoContacto.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -21,6 +23,7 @@ body {
     overflow: hidden;
     width: 400px;
     max-width: 100%;
+    padding: 10px 20px;
 }
 
 .header {
@@ -31,21 +34,18 @@ body {
 
 .header h2 {
     margin: 0;
-}
-
-.form {
-    padding: 30px 40px;
+    text-align: center;
 }
 
 .form-control {
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    padding: 10px;
     position: relative;
 }
 
 .form-control label {
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .form-control input {
@@ -55,7 +55,9 @@ body {
     font-family: inherit;
     font-size: 14px;
     padding: 10px;
+    box-sizing: border-box;
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .form-control input:focus {
@@ -98,4 +100,26 @@ body {
 
 .form-control.error small {
     visibility: visible;
+}
+
+#enviar{
+    background: #5f9d5f;
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2%;
+    border: none;
+}
+#enviar:hover{
+    cursor: pointer;
+}
+#limpiar{
+    background: #31384A;
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    border: none;
+}
+#limpiar:hover{
+    cursor: pointer;
 }

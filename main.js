@@ -55,27 +55,27 @@ function checkInputs() {
     const comentarioValue = comentario.value.trim();
 
     if (nombreValue === '') {
-        setErrorFor(nombre, 'No puede dejar el nombre en blanco');
+        setErrorFor(nombre, 'Nombre obligatorio');
     } else {
         setSuccessFor(nombre);
     }
 
     if (emailValue === '') {
-        setErrorFor(email, 'No puede dejar el email en blanco');
+        setErrorFor(email, 'Email obligatorio');
     } else if (!isEmail(emailValue)) {
-        setErrorFor(email, 'No ingreso un email válido');
+        setErrorFor(email, 'Email NO VALIDO');
     } else {
         setSuccessFor(email);
     }
 
     if (telefonoValue === '') {
-        setErrorFor(telefono, 'No puede dejar el telefono en blanco');
+        setErrorFor(telefono, 'Teléfono obligatorio');
     } else {
         setSuccessFor(telefono);
     }
 
     if (comentarioValue === '') {
-        setErrorFor(comentario, 'No puede dejar comentario en blanco');
+        setErrorFor(comentario, 'Comentario obligatorio');
     } else {
         setSuccessFor(comentario);
     }
