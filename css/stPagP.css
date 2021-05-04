@@ -281,3 +281,10 @@ footer>nav {
 footer>nav>h4 {
     text-align: center;
 }
+
+p {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 5px;
+    text-align: center;
+}
